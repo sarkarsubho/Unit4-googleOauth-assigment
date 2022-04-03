@@ -1,0 +1,31 @@
+{
+  "name": "unit-4-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkarsubho/Unit-4-Authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarkarsubho/Unit-4-Authentication/issues"
+  },
+  "homepage": "https://github.com/sarkarsubho/Unit-4-Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
